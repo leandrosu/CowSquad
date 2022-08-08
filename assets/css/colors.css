@@ -1,0 +1,15 @@
+
+:root {
+    --background-color: #020202;
+    --header-color: #000;
+    --footer-color: #000;
+    --h1-color: #ffffff;
+    --h2-color: #f84ba0;
+    --h3-color: #fedfee; /* a0f84b */
+    --h4-color: #4bf8a3;
+    --h5-color: #4ba0f8; 
+    --p-color:#fedfee;
+    --a-color:#fb95c7;
+    --aHover-color:#f964ad;
+    --icon-color:#edabcb;
+}

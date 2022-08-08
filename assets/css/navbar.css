@@ -1,0 +1,93 @@
+ 
+@import url('colors.css');
+
+header {
+    background: var(--header-color);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    opacity : 0.8;
+    border: none;
+    padding-top: 10px;
+    height: 60px;
+}
+   
+#logo {
+    float: left; 
+    width: 167px;
+    height: 37px;
+    margin-left: 10px;
+    margin-top: 7px;
+    margin-bottom: 16px;
+    background-image: url('../images/logo.png');
+  }
+
+#menu {
+    font-family: 'Bangers', cursive;
+    font-size: 120%;
+    color: #fafafa;
+}
+  
+/*Strip the ul of padding and list styling*/
+#menu ul {
+    list-style-type: none; 
+    float: right;
+}
+/*Create a horizontal list with spacing*/
+#menu li {
+    display:inline-block; 
+}
+/*Style for menu links*/
+#menu li a {
+    display:block; 
+    min-width:140px;
+    text-align: center;
+    line-height: 50px; 
+    color: #fff;
+    text-decoration: none;
+    background-color: var(--background-color);
+     
+}
+/*Hover state for top level links*/
+#menu li:hover a {
+    background: var(--aHover-color);
+    
+} 
+/*Style 'show menu' label button and hide it by default*/
+.show-menu {
+    color: #fff; 
+    padding: 10px 0;
+    display: none;
+    float: right;
+    margin-right: 10px;
+}
+/*Hide checkbox*/
+input[type=checkbox]{
+    display: none;
+}
+
+/*Show menu when invisible checkbox is checked*/
+input[type=checkbox]:checked ~ #menu{
+    display: block; 
+}
+/*Responsive Styles*/
+@media screen and (max-width : 760px){
+    /*Make dropdown links appear inline*/
+    #menu ul {
+        min-width: 110%;
+        display: none;
+
+    }
+    /*Create vertical spacing*/
+    #menu li {
+        margin-bottom: 1px; 
+    }
+    /*Make all menu links full width*/
+    #menu ul li, li a {
+        width: 100%;
+    }
+    /*Display 'show menu' link*/
+    .show-menu {
+        display:block;
+    }
+}
