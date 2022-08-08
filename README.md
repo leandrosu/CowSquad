@@ -1,4 +1,4 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![CS LOGO](https://cowsquad.xyz/images/img/logo.png)
 
 Welcome USER_NAME,
 
