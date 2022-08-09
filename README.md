@@ -9,19 +9,19 @@
 
 The cow squad website has only one page. A responsive menu where you will find the sections of the site, **Home**, **Cow Squad** and **Work with us**. The form response (*work with us*) was coded in *PHP* just to return a custom message, it is hosted on my own server.
 
-![](https://cowsquad.xyz/codeInstitute/responsive_design.jpg)
+![responsiveDesign](https://cowsquad.xyz/codeInstitute/responsive_design.jpg)
 # Mockups
 <details>
 <summary>Home</summary>
-![](https://cowsquad.xyz/codeInstitute/home.jpg)
+![home](https://cowsquad.xyz/codeInstitute/home.jpg)
 </details>
 <details>
 <summary>Cow Squad</summary>
-![](https://cowsquad.xyz/codeInstitute/cowSquad.jpg)
+![cowSquad](https://cowsquad.xyz/codeInstitute/cowSquad.jpg)
 </details>
 <details>
 <summary>Work with us</summary>
-![](https://cowsquad.xyz/codeInstitute/workWithUs.jpg)
+![workWithUs](https://cowsquad.xyz/codeInstitute/workWithUs.jpg)
 </details>
 
 # Design 
