@@ -149,7 +149,7 @@ strong{
     font-size: 1.5em;
 }
   
-#welcome{
+.title{
     text-align: center;
     margin: 20px 0;
     font-size: 290%;
@@ -168,7 +168,7 @@ strong{
     overflow: hidden;
 }
 
-#cowsquad-images{
+.cowsquad-images{
     width: 25%;
     height: 350px;
     float: left; 
@@ -382,7 +382,7 @@ footer{
         margin: 0;
     }
 
-    #cowsquad-images{
+    .cowsquad-images{
         width: 100%;
         clear: both;
         height: 300px;
