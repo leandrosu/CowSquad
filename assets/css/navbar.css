@@ -1,5 +1,5 @@
  
-@import url('colors.css');
+@import url('style.css');
 
 header {
     background: var(--header-color);
