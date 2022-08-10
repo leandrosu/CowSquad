@@ -9,6 +9,7 @@
 	CONTEXT:
 	
 	1. BASE
+        1.0 Colors
 		1.1 Imports
 		1.2 Fonts
 		1.3 Elements
@@ -19,9 +20,24 @@
 	
 /* ================================================== */   
      
+/* ----- 1.0 Colors ----- */   
+
+:root {
+    --background-color: #020202;
+    --header-color: #t;
+    --footer-color: #000;
+    --h1-color: #ffffff;
+    --h2-color: #f84ba0;
+    --h3-color: #fedfee; /* a0f84b */
+    --h4-color: #4bf8a3;
+    --h5-color: #4ba0f8; 
+    --p-color:#fedfee;
+    --a-color:#fb95c7;
+    --aHover-color:#f964ad;
+    --icon-color:#edabcb;
+}
 
 /* ----- 1.1 Imports ----- */   
-@import url('colors.css');
 @import url('navbar.css');
 
 /* ----- 1.2 Fonts ----- */   
@@ -86,7 +102,6 @@ p{
 strong{
     color: var(--h2-color); 
     font-style: bold;
-
 }
 
 
