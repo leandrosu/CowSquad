@@ -24,14 +24,20 @@ The cow squad website has only one page. A responsive menu where you will find t
 ![workWithUs](https://cowsquad.xyz/codeInstitute/workWithUs.jpg)
 </details>
 
-# Features
-- **Home**:  A short project description;
-- **Cow Squad**: Project description with some arts samples;
-- **Work with us**: Work with us form. 
+# 📄 Features
+- **Home**: A short announcement;
+![home](https://cowsquad.xyz/codeInstitute/01home.png)
 
-# Technologies Used
-- [HTML](https://en.wikipedia.org/wiki/HTML5) - html 
-- [CSS](https://en.wikipedia.org/wiki/CSS3) - css
+- **Cow Squad**: Project description with some arts samples;
+![cowSquad](https://cowsquad.xyz/codeInstitute/02cowSquad.jpg)
+
+- **Work with us**: Work with us form.
+![workWithUs](https://cowsquad.xyz/codeInstitute/03workWithUs.png)
+
+
+# 💻 Technologies Used
+- [HTML](https://en.wikipedia.org/wiki/HTML5) - HTML5 
+- [CSS](https://en.wikipedia.org/wiki/CSS3) - CSS
 - [SKETCHBOOK](https://www.sketchbook.com) - to draw the cow arts
 - [ADOBE PHOTOSHOP](https://www.adobe.com/ie/products/photoshop.html) - to risize the images
 - [ADOBE XD](https://www.adobe.com/products/xd.html) - wireframes for the website.
@@ -39,4 +45,11 @@ The cow squad website has only one page. A responsive menu where you will find t
 - [GITHUB](https://github.com) - to host and deploy the website..
 - [GOOGLE FONTS](https://fonts.google.com) - to import  'Bangers' and 'Oswald' fonts.
 - [FONTAWESOME](http://fontawesome.com) - icon library
- 
+
+
+# 🔨 Validations
+[Html Validation](https://validator.w3.org/)
+![home](https://cowsquad.xyz/codeInstitute/htmlValidation.png)
+
+[CSS Validation](https://jigsaw.w3.org/css-validator/)
+![home](https://cowsquad.xyz/codeInstitute/cssValidation.png)
