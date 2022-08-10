@@ -109,7 +109,11 @@ Icons used were taken from Font Awesome.
 You can find more information about the official project on the links 👇
 
 [WebSite](https://cowsquad.xyz) - Official website
+
 [Twitter](https://twitter.com/cowsquad01) - Twitter Profile
+
 [Instagram](https://www.instagram.com/cowsquad01/) - Instagram Profile
+
 [Opensea](https://opensea.io/collection/cowsquad) - Opensea Collection (Coming soon)
+
 [Discord](https://discord.com/invite/usvhkHvCwF) - Discord server
