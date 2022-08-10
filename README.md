@@ -24,18 +24,10 @@ The cow squad website has only one page. A responsive menu where you will find t
 ![workWithUs](https://cowsquad.xyz/codeInstitute/workWithUs.jpg)
 </details>
 
-# Design 
-- Logo: 
-- Cows: 
-- Typography:
-- Colour Scheme: 
-
-
 # Features
 - **Home**:  A short project description;
 - **Cow Squad**: Project description with some arts samples;
 - **Work with us**: Work with us form. 
-
 
 # Technologies Used
 - [HTML](https://en.wikipedia.org/wiki/HTML5) - html 
