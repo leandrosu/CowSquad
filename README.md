@@ -69,13 +69,13 @@ The cow squad website has only one page. A responsive menu where you will find t
 I created a simple *PHP* script that receives the form information.
 
 Code responsible for receiving, checking and print the f_name variable:
-
-- If the variable is null, I redirect the user to Work-with-us form, otherwise I just print the f_name + thank you message.
+*- If the variable is null, I redirect the user to Work-with-us form, otherwise I just print the f_name + thank you message.
+*
    
 
     <?php
     		$f_name  = $_POST['f_name'];
-    		$link    = "https://leandrosu.github.io/CowSquad/";
+    		$link        = "https://leandrosu.github.io/CowSquad/";
         
     			if(isset($f_name)){
     				$f_name =  $f_name;
@@ -89,7 +89,8 @@ Printing message:
 
 
     <h1>
-    	<?php echo"$f_name"; ?>,<br>Thanks for your contact!
+    	<?php echo"$f_name"; ?>,<br>
+        Thanks for your contact!
     </h1>
 #  Credits
 
