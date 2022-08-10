@@ -5,22 +5,21 @@
 /* email: leandrosu@gmail.com
 /* Portfolio: https://leandrosu.com
  
- 
 	CONTEXT:
 	
 	1. BASE
-        1.0 Colors
-		1.1 Imports
+		1.1 Colors
 		1.2 Fonts
 		1.3 Elements
-	2. Banner
+    2. HEADER    
+	2. BANNER
 	3. COWSQUAD
     4. WORK-WITH-US
     5. FOOTER 
 	
 /* ================================================== */   
      
-/* ----- 1.0 Colors ----- */   
+/* ----- 1.1 Colors ----- */   
 
 :root {
     --background-color: #020202;
@@ -28,7 +27,7 @@
     --footer-color: #000;
     --h1-color: #ffffff;
     --h2-color: #f84ba0;
-    --h3-color: #fedfee; /* a0f84b */
+    --h3-color: #fedfee; 
     --h4-color: #4bf8a3;
     --h5-color: #4ba0f8; 
     --p-color:#fedfee;
@@ -36,9 +35,6 @@
     --aHover-color:#f964ad;
     --icon-color:#edabcb;
 }
-
-/* ----- 1.1 Imports ----- */   
-@import url('navbar.css');
 
 /* ----- 1.2 Fonts ----- */   
 @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Oswald:wght@300&display=swap');
@@ -88,7 +84,6 @@ h1, h2, h3, h4, h5 {
 }
 
 
-
 p{
     margin-left: 5%;
     margin-right: 5%;
@@ -102,6 +97,97 @@ p{
 strong{
     color: var(--h2-color); 
     font-style: bold;
+}
+
+
+/* ================================================== */
+/* -----             2. HEADER                  ----- */   
+/* ================================================== */
+
+
+header {
+    background: var(--header-color);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    opacity : 0.8;
+    border: none;
+    padding-top: 10px;
+    height: 60px;
+}
+   
+#logo {
+    float: left; 
+    width: 167px;
+    height: 37px;
+    margin-left: 10px;
+    margin-top: 7px;
+    margin-bottom: 16px;
+    background-image: url('../images/logo.png');
+}
+
+.menu {
+    font-family: 'Bangers', cursive;
+    font-size: 120%;
+    color: #fafafa;
+}
+  
+.menu ul {
+    list-style-type: none; 
+    float: right;
+}
+
+.menu li {
+    display:inline-block; 
+}
+
+.menu li a {
+    display:block; 
+    min-width:140px;
+    text-align: center;
+    line-height: 50px; 
+    color: #fff;
+    text-decoration: none;
+    background-color: var(--background-color);
+}
+
+.menu li:hover a {
+    background: var(--aHover-color);
+} 
+
+.show-menu {
+    color: #fff; 
+    padding: 10px 0;
+    display: none;
+    float: right;
+    margin-right: 10px;
+}
+
+input[type=checkbox]{
+    display: none;
+}
+
+input[type=checkbox]:checked ~ .menu{
+    display: block; 
+}
+
+@media screen and (max-width : 760px){
+    .menu ul {
+        min-width: 110%;
+        display: none;
+    }
+
+    .menu li {
+        margin-bottom: 1px; 
+    }
+
+    .menu ul li, li a {
+        width: 100%;
+    }
+
+    .show-menu {
+        display:block;
+    }
 }
 
 
