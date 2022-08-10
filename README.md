@@ -11,6 +11,7 @@ The cow squad website has only one page. A responsive menu where you will find t
 
 ![responsiveDesign](https://cowsquad.xyz/codeInstitute/responsive_design.jpg)
 
+
 # ➡ Features
 **Home**
 ![home](https://cowsquad.xyz/codeInstitute/01home.png)
@@ -18,10 +19,12 @@ The cow squad website has only one page. A responsive menu where you will find t
 > A short announcement;
 
 
+
 **Cow Squad**
 ![cowSquad](https://cowsquad.xyz/codeInstitute/02cowSquad.jpg)
 
 > Project description with some arts samples;
+
 
 
 **Work with us**
@@ -74,7 +77,7 @@ Code responsible for receiving, checking and print the f_name variable:
 
     <?php
     		$f_name  = $_POST['f_name'];
-    		$link        = "https://leandrosu.github.io/CowSquad/";
+    		$link    = "https://leandrosu.github.io/CowSquad/";
         
     			if(isset($f_name)){
     				$f_name =  $f_name;
@@ -89,7 +92,7 @@ Printing message:
 
     <h1>
     	<?php echo"$f_name"; ?>,<br>
-        Thanks for your contact!
+      Thanks for your contact!
     </h1>
 # ➡ Credits
 
