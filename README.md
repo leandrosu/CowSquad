@@ -1,30 +1,28 @@
 
 ![CowSquad](https://cowsquad.xyz/codeInstitute/logoProject.png)
 
-# ➡ Objective
+# :fa-minus: Objective
 
 **🐮 Cow Squad** is an NFT Project aimed at supporting different organisations and ready to make a difference!
 
-# ➡ Structure
+
+# :fa-minus: Structure
 
 The cow squad website has only one page. A responsive menu where you will find the sections of the site, **Home**, **Cow Squad** and **Work with us**. The form response (*work with us*) was coded in *PHP* just to return a custom message, it is hosted on my own server.
 
 ![responsiveDesign](https://cowsquad.xyz/codeInstitute/responsive_design.jpg)
 
-
-# ➡ Features
+# :fa-minus: Features
 **Home**
 ![home](https://cowsquad.xyz/codeInstitute/01home.png)
 
 > A short announcement;
 
 
-
 **Cow Squad**
 ![cowSquad](https://cowsquad.xyz/codeInstitute/02cowSquad.jpg)
 
 > Project description with some arts samples;
-
 
 
 **Work with us**
@@ -34,7 +32,7 @@ The cow squad website has only one page. A responsive menu where you will find t
 
 
 
-# ➡ Technologies Used
+# :fa-minus: Technologies Used
 
 - [HTML](https://en.wikipedia.org/wiki/HTML5) - HTML5 
 - [CSS](https://en.wikipedia.org/wiki/CSS3) - CSS
@@ -47,7 +45,7 @@ The cow squad website has only one page. A responsive menu where you will find t
 - [FONTAWESOME](http://fontawesome.com) - icon library
 
 
-# ➡ Validations
+# :fa-minus: Validations
 [Html Validation](https://validator.w3.org/)
 ![home](https://cowsquad.xyz/codeInstitute/htmlValidation.png)
 
@@ -57,7 +55,7 @@ The cow squad website has only one page. A responsive menu where you will find t
 
 
 
-# ➡ Mockups
+# :fa-minus: Mockups
 **Home**
 ![home](https://cowsquad.xyz/codeInstitute/home.jpg)
 
@@ -67,7 +65,7 @@ The cow squad website has only one page. A responsive menu where you will find t
 **Work with us**
 ![workWithUs](https://cowsquad.xyz/codeInstitute/workWithUs.jpg)
 
-# ➡ Extra
+# :fa-minus: Extra
 I created a simple *PHP* script that receives the form information.
 
 Code responsible for receiving, checking and print the f_name variable:
@@ -77,7 +75,7 @@ Code responsible for receiving, checking and print the f_name variable:
 
     <?php
     		$f_name  = $_POST['f_name'];
-    		$link    = "https://leandrosu.github.io/CowSquad/";
+    		$link        = "https://leandrosu.github.io/CowSquad/";
         
     			if(isset($f_name)){
     				$f_name =  $f_name;
@@ -92,28 +90,24 @@ Printing message:
 
     <h1>
     	<?php echo"$f_name"; ?>,<br>
-      Thanks for your contact!
+        Thanks for your contact!
     </h1>
-# ➡ Credits
+# :fa-minus: Credits
 
 I got some navbar refferences from [W3School](https://www.w3schools.com/css/).
 
-# ➡ Content
+# :fa-minus: Content
 
 All the information used in this project was taken from the official website [Cow Squad](https://cowsquad.xyz "Cow Squad"). 
 The images used were all created by myself.
 
 Icons used were taken from Font Awesome.
 
-# ➡ Official Links
+# :fa-minus: Official Links
 You can find more information about the official project on the links 👇
 
-[WebSite](https://cowsquad.xyz) - Official website
-
-[Twitter](https://twitter.com/cowsquad01) - Twitter Profile
-
-[Instagram](https://www.instagram.com/cowsquad01/) - Instagram Profile
-
-[Opensea](https://opensea.io/collection/cowsquad) - Opensea Collection (Coming soon)
-
-[Discord](https://discord.com/invite/usvhkHvCwF) - Discord server
+- [WebSite](https://cowsquad.xyz) - Official website
+- [Twitter](https://twitter.com/cowsquad01) - Twitter Profile
+- [Instagram](https://www.instagram.com/cowsquad01/) - Instagram Profile
+- [Opensea](https://opensea.io/collection/cowsquad) - Opensea Collection (Coming soon)
+- [Discord](https://discord.com/invite/usvhkHvCwF) - Discord server
