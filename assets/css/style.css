@@ -2,7 +2,19 @@
 /* Cow Squad Portfolio - HTML5 + CSS 
 /* created by Leandrosu 
 /* email: leandrosu@gmail.com 
-/* Portfolio: https://leandrosu.com CONTEXT: 1. BASE 1.1 Colors 1.2 Fonts 1.3 Elements 2. HEADER 2. BANNER 3. COWSQUAD 4. WORK-WITH-US 5. FOOTER 
+/* Portfolio: https://leandrosu.com 
+
+    CONTEXT: 
+        1. BASE 
+            - 1.1 Colors 
+            - 1.2 Fonts 
+            - 1.3 Elements 
+        2. HEADER 
+        3. BANNER 
+        4. COWSQUAD 
+        5. WORK-WITH-US 
+        6. FOOTER 
+
 /* ================================================== */
 /* ----- 1.1 Colors ----- */
 :root {
@@ -144,7 +156,7 @@ input[type=checkbox]:checked ~ .menu{
    }
 }
 /* ================================================== */
-/* ----- 2. BANNER ----- */
+/* ----- 3. BANNER ----- */
 /* ================================================== */
 #banner{
     min-height: 900px;
@@ -201,7 +213,7 @@ input[type=checkbox]:checked ~ .menu{
     font-size: 290%;
 }
 /* ================================================== */
-/* ----- 3. COWSQUAD ----- */
+/* ----- 4. COWSQUAD ----- */
 /* ================================================== */
 #cowsquad {
     padding-top: 70px;
@@ -236,7 +248,7 @@ input[type=checkbox]:checked ~ .menu{
     font-size: 35px;
 }
 /* ================================================== */
-/* ----- 4. WORK-WITH-US ----- */
+/* ----- 5. WORK-WITH-US ----- */
 /* ================================================== */
 #work-with-us {
     padding-top: 70px;
