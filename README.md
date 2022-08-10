@@ -75,7 +75,7 @@ Code responsible for receiving, checking and print the f_name variable:
 
     <?php
     		$f_name  = $_POST['f_name'];
-    		$link        = "https://leandrosu.github.io/CowSquad/";
+    		$link    = "https://leandrosu.github.io/CowSquad/";
         
     			if(isset($f_name)){
     				$f_name =  $f_name;
@@ -89,8 +89,7 @@ Printing message:
 
 
     <h1>
-    	<?php echo"$f_name"; ?>,<br>
-        Thanks for your contact!
+    	<?php echo"$f_name"; ?>,<br>Thanks for your contact!
     </h1>
 #  Credits
 
