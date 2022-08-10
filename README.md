@@ -89,8 +89,7 @@ Printing message:
 
 
     <h1>
-    	<?php echo"$f_name"; ?>,<br>
-        Thanks for your contact!
+    	<?php echo"$f_name"; ?>,<br>Thanks for your contact!
     </h1>
 #  Credits
 
