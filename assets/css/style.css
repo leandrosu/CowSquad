@@ -19,8 +19,8 @@
 /* ----- 1.1 Colors ----- */
 :root {
     --background-color: #020202;
-    --header-color: #t;
-    --footer-color: #000;
+    --header-color: #000000;
+    --footer-color: #000000;
     --h1-color: #ffffff;
     --h2-color: #f84ba0;
     --h3-color: #fedfee;
