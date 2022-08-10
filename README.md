@@ -1,18 +1,18 @@
 
 ![CowSquad](https://cowsquad.xyz/codeInstitute/logoProject.png)
 
-# :fa-minus: Objective
+#  Objective
 
 **🐮 Cow Squad** is an NFT Project aimed at supporting different organisations and ready to make a difference!
 
 
-# :fa-minus: Structure
+#  Structure
 
 The cow squad website has only one page. A responsive menu where you will find the sections of the site, **Home**, **Cow Squad** and **Work with us**. The form response (*work with us*) was coded in *PHP* just to return a custom message, it is hosted on my own server.
 
 ![responsiveDesign](https://cowsquad.xyz/codeInstitute/responsive_design.jpg)
 
-# :fa-minus: Features
+#  Features
 **Home**
 ![home](https://cowsquad.xyz/codeInstitute/01home.png)
 
@@ -32,7 +32,7 @@ The cow squad website has only one page. A responsive menu where you will find t
 
 
 
-# :fa-minus: Technologies Used
+#  Technologies Used
 
 - [HTML](https://en.wikipedia.org/wiki/HTML5) - HTML5 
 - [CSS](https://en.wikipedia.org/wiki/CSS3) - CSS
@@ -45,7 +45,7 @@ The cow squad website has only one page. A responsive menu where you will find t
 - [FONTAWESOME](http://fontawesome.com) - icon library
 
 
-# :fa-minus: Validations
+#  Validations
 [Html Validation](https://validator.w3.org/)
 ![home](https://cowsquad.xyz/codeInstitute/htmlValidation.png)
 
@@ -55,7 +55,7 @@ The cow squad website has only one page. A responsive menu where you will find t
 
 
 
-# :fa-minus: Mockups
+#  Mockups
 **Home**
 ![home](https://cowsquad.xyz/codeInstitute/home.jpg)
 
@@ -65,7 +65,7 @@ The cow squad website has only one page. A responsive menu where you will find t
 **Work with us**
 ![workWithUs](https://cowsquad.xyz/codeInstitute/workWithUs.jpg)
 
-# :fa-minus: Extra
+#  Extra
 I created a simple *PHP* script that receives the form information.
 
 Code responsible for receiving, checking and print the f_name variable:
@@ -92,18 +92,18 @@ Printing message:
     	<?php echo"$f_name"; ?>,<br>
         Thanks for your contact!
     </h1>
-# :fa-minus: Credits
+#  Credits
 
 I got some navbar refferences from [W3School](https://www.w3schools.com/css/).
 
-# :fa-minus: Content
+#  Content
 
 All the information used in this project was taken from the official website [Cow Squad](https://cowsquad.xyz "Cow Squad"). 
 The images used were all created by myself.
 
 Icons used were taken from Font Awesome.
 
-# :fa-minus: Official Links
+#  Official Links
 You can find more information about the official project on the links 👇
 
 - [WebSite](https://cowsquad.xyz) - Official website
